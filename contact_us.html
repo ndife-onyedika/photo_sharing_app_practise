@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gamma &mdash; Photo Sharing App</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+  </head>
+
+  <body class="container" style="grid-template-rows: minmax(6rem, min-content) min-content minmax(6rem, min-content);">
+
+
+    <nav class="nav nav--light">
+      <a class="nav__brand" href="./index.html">Gamma</a>
+      <ul class="nav__group">
+        <li class="nav__group-item nav__group-item-1"><a class="nav__link" href="./index.html">Home</a></li>
+        <li class="nav__group-item  nav__group-item-2"><a class="nav__link" href="./about_us.html">About</a></li>
+        <li class="nav__group-item nav__group-item-3"><a class="nav__link active" href="./contact_us.html">Contact</a>
+        </li>
+      </ul>
+
+      <label class="nav__btn" for="chk">
+        <input type="checkbox" id="chk">
+        <div class="nav__btn-label"></div>
+      </label>
+    </nav>
+
+    <header class="header">
+      <h1 class="heading-1 heading-1--light">
+        Contact Us
+      </h1>
+    </header>
+
+    <section class="details">
+      <form action="" class="form">
+        <fieldset class="form__fieldset">
+          <label for="name" class="form__label">Name</label>
+          <input type="text" class="form__input" id="name" placeholder="Enter Name">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="Comname">Company Name</label>
+          <input class="form__input" type="text" id="Comname" placeholder="Enter Company Name">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="email">Email address</label>
+          <input class="form__input" type="email" id="email" placeholder="Enter Email">
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <label class="form__label" for="text">Message</label>
+          <textarea class="form__input" id="text" cols="30" rows="10" placeholder="Enter Message"></textarea>
+        </fieldset>
+
+        <div class="btn btn__form">Submit</div>
+      </form>
+
+      <div class="product product__detail">
+        <img src="./assets/img/demo1.jpg" class="product__img">
+        <h1 class="heading-3 heading-3--dark">
+          Lorem Ipsum
+        </h1>
+        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates reprehenderit facere
+          ex
+          quas eaque id quae sed vel tempora pariatur vitae ut eligendi at, laudantium, modi enim expedita dolorem
+          veniam.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+
+    <footer class="footer">
+      <ul class="footer__links">
+        <li><a class="footer__link" href="./index.html">Home</a></li>
+        <li><a class="footer__link" href="./about_us.html">About</a></li>
+        <li><a class="footer__link" href="./contact_us.html">Contact</a></li>
+        <li><a class="footer__link" href="#">Privacy Policy</a></li>
+      </ul>
+      <div class="footer__copyright">
+        <p class="copyright">Copyright &copy; 2019, All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+
+</html>
